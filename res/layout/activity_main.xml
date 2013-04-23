@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="跑马灯效果案例"
+        android:textSize="20sp" />
+
+    <com.example.textview_paomadeng_01.WTextView
+        android:id="@+id/paomadeng_id"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="跑马灯小案例自己滚动的textview"
+        android:textColor="#fd0"
+        android:textSize="30sp"
+        android:background="#000" />
+
+</LinearLayout>
